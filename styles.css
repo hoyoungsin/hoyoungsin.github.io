@@ -4,7 +4,7 @@ body {
     flex-direction: column;
 }
 
-img {
+.profile-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -18,19 +18,17 @@ main {
     display: grid;
     grid-template-columns: 100px 1fr
 }
+
 .sidebar {
     display: flex;
     flex-direction: column;
 }
 
-a {
-    color: black;
+.icons {
+    width: 30px;
+    height: auto;
 }
 
-p {
-    display:grid
-
-}
 footer{
     display: none;
 }
